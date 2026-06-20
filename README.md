@@ -5,6 +5,6 @@ also i was considering maybe adding your own text files to practice typing with!
 
 following assets were used:
 
-font: https://kmlgames.itch.io/friendly-scribbles
-music: https://chajamakesmusic.itch.io/cute-and-silly-rpg-music-pack
-sfx was found off free to use websites -- no copyright issues :)
+- font: https://kmlgames.itch.io/friendly-scribbles
+- music: https://chajamakesmusic.itch.io/cute-and-silly-rpg-music-pack
+- sfx was found off free to use websites -- no copyright issues :)
