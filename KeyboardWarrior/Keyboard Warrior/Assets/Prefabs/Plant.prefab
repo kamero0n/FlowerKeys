@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5588362416636134333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6597977468841292594}
+  - component: {fileID: 2021876914857414535}
+  - component: {fileID: 4353967937530931696}
+  m_Layer: 7
+  m_Name: Plant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6597977468841292594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5588362416636134333}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2021876914857414535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5588362416636134333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c95afbec22290164ba07ae3c3ea4d3f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swayAmount: 1.2
+  swaySpeed: 0.7
+  turtle: {fileID: 4353967937530931696}
+  lsystems: 3
+  minSegmentDelay: 0.01
+  maxSegmentDelay: 0.12
+  segmentRevealSpeed: 0.12
+--- !u!114 &4353967937530931696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5588362416636134333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3b1db6b6e39a8e4c802856ffea2bf74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  segmentLength: 0.3
+  baseAngle: 25
+  angleVariance: 10
+  baseWidth: 0.08
+  tipWidth: 0.02
+  stemColorBase: {r: 0.3135903, g: 0.49360898, b: 0.764151, a: 1}
+  stemColorTip: {r: 0.6567283, g: 0.7351414, b: 0.8867924, a: 1}
+  flowerColor: {r: 0.5742702, g: 0.82791317, b: 0.8396226, a: 1}
+  branchPrefab: {fileID: 6897062611470311943, guid: 679e955fb3cf7cf429cc6c0678ddbe87, type: 3}
+  flowerheadPrefab: {fileID: 7600057485837145794, guid: a545efea41e8778408a35745d0597d23, type: 3}
